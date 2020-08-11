@@ -1,0 +1,27 @@
+.transaction_history {
+  border-collapse: separate;
+
+  margin: 25px 0;
+  font-size: 0.9em;
+  min-width: 400px;
+}
+.transaction_history thead tr {
+  background-color: aqua;
+  color: #ffffff;
+  text-align: left;
+  font-weight: bold;
+}
+.transaction_history th,
+.transaction_history td {
+  padding: 15px;
+}
+.transaction_history tbody tr {
+  border-bottom: 1px solid;
+}
+.transaction_history tbody tr:nth-of-type(even) {
+  background-color: gainsboro;
+}
+
+.transaction_history tbody tr:last-of-type {
+  border-bottom: 2px solid aqua;
+}
