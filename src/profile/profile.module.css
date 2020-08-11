@@ -1,3 +1,60 @@
-.container {
-  background-color: aqua;
+.profile__container {
+  width: 300px;
+  height: 463px;
+  border: 3px black solid;
+  margin: 30px;
+}
+.profile__txt {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  padding: 20px;
+}
+
+.profile__name {
+  color: black;
+  font-size: 30px;
+  font-family: sans-serif;
+  font-weight: bold;
+}
+.profile__tag {
+  color: grey;
+  font-size: 20px;
+}
+
+.profile__location {
+  color: grey;
+  font-size: 20px;
+}
+
+.profile__photo {
+  width: 90px;
+  height: 90px;
+  border-radius: 45px;
+  margin: 0 auto;
+}
+
+.profile__tab {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+  background-color: lightgray;
+  padding: 10px;
+}
+
+.profile__tab__block {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  padding: 20px;
+}
+
+.profile__tab__label {
+  color: gray;
+}
+
+.profile__tab__quantity {
+  color: black;
+  font-weight: bold;
+  font-family: sans-serif;
 }

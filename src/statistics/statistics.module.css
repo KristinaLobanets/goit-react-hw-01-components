@@ -1,0 +1,39 @@
+.statistiks__container {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  height: 175px;
+  border: 3px black solid;
+  margin: 30px;
+}
+
+.statistiks__title {
+  font-family: "Montserrat", sans-serif;
+  text-align: center;
+  color: gray;
+  padding-top: 20px;
+}
+
+.statistiks__star_list {
+  display: flex;
+  justify-content: space-between;
+  width: 200px;
+  list-style: none;
+  padding: 0px;
+}
+
+.statistiks__item {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  border: 1px gray solid;
+  padding: 10px;
+}
+
+.statistiks__label {
+  font-size: 15px;
+}
+
+.statistiks__percentage {
+  font-size: 22px;
+}
