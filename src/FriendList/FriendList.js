@@ -26,8 +26,8 @@ export const FriendListFunk = ({ friend }) => {
 };
 
 FriendListFunk.propTypes = {
-  id: PropTypes.number.isRequired,
-  isOnline: PropTypes.bool.isRequired,
-  name: PropTypes.string.isRequired,
-  avatar: PropTypes.string.isRequired,
+  id: PropTypes.number,
+  isOnline: PropTypes.bool,
+  name: PropTypes.string,
+  avatar: PropTypes.string,
 };
