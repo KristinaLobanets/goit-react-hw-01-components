@@ -6,7 +6,7 @@ export const FriendListFunk = ({ friend }) => {
   return (
     <ul className={styles.friend_list__container}>
       {friend.map((item) => (
-        <li className={styles.friend_list__item}>
+        <li key={item.id} className={styles.friend_list__item}>
           {item.isOnline ? (
             <span className={styles.friend_list__status_on}></span>
           ) : (

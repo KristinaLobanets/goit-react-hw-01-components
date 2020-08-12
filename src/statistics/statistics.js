@@ -9,6 +9,7 @@ export const Statistics = ({ statistiks }) => {
       <ul className={styles.statistiks__star_list}>
         {statistiks.map((statistik) => (
           <li
+            key={statistiks.id}
             className={styles.statistiks__item}
             style={{
               backgroundColor: `#${((Math.random() * 0xffffff) << 0).toString(
@@ -28,6 +29,7 @@ export const Statistics = ({ statistiks }) => {
 };
 
 Statistics.propTypes = {
+  id: PropTypes.string,
   label: PropTypes.string,
   percentage: PropTypes.number,
 };
