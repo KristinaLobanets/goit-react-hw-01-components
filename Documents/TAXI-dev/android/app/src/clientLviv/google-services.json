@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "206489506129",
+    "firebase_url": "https://taxilviv-19509.firebaseio.com",
+    "project_id": "taxilviv-19509",
+    "storage_bucket": "taxilviv-19509.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:206489506129:android:8827a53fb785989f9a4370",
+        "android_client_info": {
+          "package_name": "it.stocksoft.clientLviv7070"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "206489506129-o21bsp2gt65boa3q24ss8lcuu3o5i3lv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBYElUGGF6YrK4JQZGaCjTuEGo1uAjnY6o"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "206489506129-o21bsp2gt65boa3q24ss8lcuu3o5i3lv.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "206489506129-nt8qmpm2bmtr35oqfib2kvkquhejmssc.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "it.stocksoft.clientLviv7070"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

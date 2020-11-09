@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "933965040940",
+    "firebase_url": "https://taxi6226-5f187.firebaseio.com",
+    "project_id": "taxi6226-5f187",
+    "storage_bucket": "taxi6226-5f187.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:933965040940:android:404d1ccadb2a40f3b6f089",
+        "android_client_info": {
+          "package_name": "it.stocksoft.client6226khm"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "933965040940-6iahf458dhkugm1av4btarqcb7p941ci.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBx6BP-VoWZHiS38u45TUenYYKdlZ_b3_o"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "933965040940-6iahf458dhkugm1av4btarqcb7p941ci.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "933965040940-g1korjpgc5e7t2bg0eh9jv9rfli77nt4.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "it.stocksoft.client6226khm",
+                "app_store_id": "1491075395"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

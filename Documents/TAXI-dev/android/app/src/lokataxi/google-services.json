@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "178183096953",
+    "firebase_url": "https://lokataxi-c2f95.firebaseio.com",
+    "project_id": "lokataxi-c2f95",
+    "storage_bucket": "lokataxi-c2f95.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:178183096953:android:8147fcae6ed2d0ccca22a8",
+        "android_client_info": {
+          "package_name": "it.stocksoft.lokataxi"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "178183096953-j05le8erj5eq7hr5hoc796pgusqcuho4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDey9BFb2C5ExBSw1QtY_xRs9AjxLWhVT4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "178183096953-j05le8erj5eq7hr5hoc796pgusqcuho4.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "178183096953-iqdjbcdu57speqp84q4vqndhmfjlq3nb.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "it.stocksoft.lokataxi",
+                "app_store_id": "1511255197"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

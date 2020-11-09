@@ -1,0 +1,100 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+  package="com.oktaxi">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED"/>
+    <uses-permission android:name="android.permission.READ_CONTACTS" />
+    <uses-permission android:name="android.permission.READ_PROFILE" />
+
+    <application
+      android:name=".MainApplication"
+      android:label="${appName}"
+      android:icon="${appIcon}"
+      android:roundIcon="${appIconRound}"
+      android:allowBackup="false"
+      android:usesCleartextTraffic="true"
+      android:theme="@style/AppTheme">
+
+      <meta-data
+        android:name="com.google.android.geo.API_KEY"
+        android:value="AIzaSyDWogqTJuVHBpd1QLtztaTk5BI1QGvQwJs"/>
+      <meta-data
+        android:name="com.google.android.gms.wallet.api.enabled"
+        android:value="true" />
+
+      <meta-data android:name="com.facebook.sdk.ApplicationId" android:value="@string/facebook_app_id"/>
+
+      <activity
+        android:name=".MainActivity"
+        android:label="${appName}"
+        android:configChanges="keyboard|keyboardHidden|orientation|screenSize"
+        android:screenOrientation="portrait"
+        android:windowSoftInputMode="adjustResize"
+        android:launchMode="singleTask">
+        <intent-filter>
+            <action android:name="android.intent.action.MAIN" />
+            <category android:name="android.intent.category.LAUNCHER" />
+        </intent-filter>
+
+        <intent-filter>
+            <action android:name="android.intent.action.VIEW"/>
+            <category android:name="android.intent.category.DEFAULT"/>
+            <category android:name="android.intent.category.BROWSABLE"/>
+            <data android:host="taxiok.page.link" android:scheme="http"/>
+            <data android:host="taxiok.page.link" android:scheme="https"/>
+        </intent-filter>
+
+      </activity>
+
+      <activity android:name="com.facebook.FacebookActivity"
+        android:configChanges=
+                "keyboard|keyboardHidden|screenLayout|screenSize|orientation"
+        android:label="@string/app_name" />
+      <activity
+        android:name="com.facebook.CustomTabActivity"
+        android:exported="true">
+        <intent-filter>
+            <action android:name="android.intent.action.VIEW" />
+            <category android:name="android.intent.category.DEFAULT" />
+            <category android:name="android.intent.category.BROWSABLE" />
+            <data android:scheme="@string/fb_login_protocol_scheme" />
+        </intent-filter>
+    </activity>
+
+      <activity android:name="com.facebook.react.devsupport.DevSettingsActivity" />
+
+       <!-- Push notifications -->
+      <meta-data  android:name="com.dieam.reactnativepushnotification.notification_channel_name"
+              android:value="taxi"/>
+      <meta-data  android:name="com.dieam.reactnativepushnotification.notification_channel_description"
+                  android:value="DESCRIPTION"/>
+      <!-- Change the resource name to your App's accent color - or any other color you want -->
+      <meta-data
+        android:name="com.google.firebase.messaging.default_notification_icon"
+        android:resource="${notification}" />
+      <meta-data  android:name="com.dieam.reactnativepushnotification.notification_color"
+                  android:resource="@color/white"/>
+      <receiver android:name="com.dieam.reactnativepushnotification.modules.RNPushNotificationPublisher" />
+      <receiver android:name="com.dieam.reactnativepushnotification.modules.RNPushNotificationBootEventReceiver">
+          <intent-filter>
+              <action android:name="android.intent.action.BOOT_COMPLETED" />
+          </intent-filter>
+      </receiver>
+      <service android:name="com.dieam.reactnativepushnotification.modules.RNPushNotificationRegistrationService"/>
+      <!-- < Else > -->
+      <service
+          android:name="com.dieam.reactnativepushnotification.modules.RNPushNotificationListenerService"
+          android:exported="false" >
+          <intent-filter>
+              <action android:name="com.google.firebase.MESSAGING_EVENT" />
+          </intent-filter>
+      </service>
+      <!-- </Else> -->
+    </application>
+
+</manifest>

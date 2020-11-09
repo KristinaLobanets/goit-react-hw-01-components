@@ -1,0 +1,16 @@
+/* 
+  InfoPlist.strings
+  taxi
+
+  Created by Devloop Inc on 10/22/19.
+  Copyright © 2019 Facebook. All rights reserved.
+*/
+NSCameraUsageDescription = "App would like to use your camera for creating user avatar";
+NSLocationAlwaysAndWhenInUseUsageDescription = "Your location is required for taxi drivers to find you";
+NSLocationAlwaysUsageDescription = "Your location is required for taxi drivers to find you";
+NSLocationWhenInUseUsageDescription = "Your location is required for taxi drivers to find you";
+NSMicrophoneUsageDescription = "App would like to use your microphone (for videos)";
+NSPhotoLibraryAddUsageDescription = "App would like to save photos to your photo gallery";
+NSPhotoLibraryUsageDescription = "App would like access to your photo gallery for upload user avatar";
+NSContactsUsageDescription = "App would like to use your contacts to create orders for your friends";
+NSCalendarsUsageDescription = "This app requires access to the calendar for creating reminders";

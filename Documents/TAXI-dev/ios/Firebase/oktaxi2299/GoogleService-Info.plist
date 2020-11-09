@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>689994155912-gq4rkeq6jecctfpk2a8hv41j3fo7v2l6.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.689994155912-gq4rkeq6jecctfpk2a8hv41j3fo7v2l6</string>
+	<key>API_KEY</key>
+	<string>AIzaSyBskvujEDOx-eZHe1VaDR1igVJoV4UKfFY</string>
+	<key>GCM_SENDER_ID</key>
+	<string>689994155912</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.oktaxi2299</string>
+	<key>PROJECT_ID</key>
+	<string>ok2299-2eef7</string>
+	<key>STORAGE_BUCKET</key>
+	<string>ok2299-2eef7.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:689994155912:ios:858f7ea26c4576efcd9c3d</string>
+	<key>DATABASE_URL</key>
+	<string>https://ok2299-2eef7.firebaseio.com</string>
+</dict>
+</plist>

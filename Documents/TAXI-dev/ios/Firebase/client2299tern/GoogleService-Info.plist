@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>390479406386-spsbvvqoej7flpj9f21i4jost5t7g0r9.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.390479406386-spsbvvqoej7flpj9f21i4jost5t7g0r9</string>
+	<key>API_KEY</key>
+	<string>AIzaSyC5Y0RcN9O2ZsM7EFIIIYxUKav1U164vEA</string>
+	<key>GCM_SENDER_ID</key>
+	<string>390479406386</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>it.stocksoft.client2299tern</string>
+	<key>PROJECT_ID</key>
+	<string>tern2299-e9973</string>
+	<key>STORAGE_BUCKET</key>
+	<string>tern2299-e9973.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:390479406386:ios:498150073039fe298d232b</string>
+	<key>DATABASE_URL</key>
+	<string>https://tern2299-e9973.firebaseio.com</string>
+</dict>
+</plist>

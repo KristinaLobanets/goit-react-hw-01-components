@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "390479406386",
+    "firebase_url": "https://tern2299-e9973.firebaseio.com",
+    "project_id": "tern2299-e9973",
+    "storage_bucket": "tern2299-e9973.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:390479406386:android:529baf123bfc88a58d232b",
+        "android_client_info": {
+          "package_name": "it.stocksoft.client2299tern"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "390479406386-p62huvldvuq859pgq0e5ue8mqegfhc6f.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCO6Gs1mt-CFcbj1fwWeZp6CQrs141DbTc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "390479406386-p62huvldvuq859pgq0e5ue8mqegfhc6f.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "390479406386-spsbvvqoej7flpj9f21i4jost5t7g0r9.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "it.stocksoft.client2299tern",
+                "app_store_id": "1483914460"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

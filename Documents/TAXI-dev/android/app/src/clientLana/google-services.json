@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "580032638714",
+    "firebase_url": "https://taxilana-9ec06.firebaseio.com",
+    "project_id": "taxilana-9ec06",
+    "storage_bucket": "taxilana-9ec06.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:580032638714:android:d9de4bfcce5e647863e343",
+        "android_client_info": {
+          "package_name": "it.stocksoft.clientLana"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "580032638714-0qia4kaekmi81bo9g0cimlhi22np8uol.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCMZRnoLjagQ9zHwh1ouliH-HkvQbIGS38"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "580032638714-0qia4kaekmi81bo9g0cimlhi22np8uol.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "580032638714-s4d43c91phv51b4502fpmqibopnlkt4q.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "it.stocksoft.clientLana",
+                "app_store_id": "1492628236"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

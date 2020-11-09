@@ -1,0 +1,16 @@
+/* 
+  InfoPlist.strings
+  taxi
+
+  Created by Devloop Inc on 10/22/19.
+  Copyright © 2019 Facebook. All rights reserved.
+*/
+NSCameraUsageDescription = "Приложение использует вашу камеру для создания аватара.";
+NSLocationAlwaysAndWhenInUseUsageDescription = "Ваше местоположение необходимо для того, чтоб водители нашли вас.";
+NSLocationAlwaysUsageDescription = "Ваше местоположение необходимо для того, чтоб водители нашли вас.";
+NSLocationWhenInUseUsageDescription = "Ваше местоположение необходимо для того, чтоб водители нашли вас.";
+NSMicrophoneUsageDescription = "Приложение использует ваш микрофон (для видео).";
+NSPhotoLibraryAddUsageDescription = "Приложение будет сохранять фото в галерею.";
+NSPhotoLibraryUsageDescription = "Приложению нужен доступ в галерею для создания аватара.";
+NSContactsUsageDescription = "Приложение использует ваши контакты, для создания вызовов для друзей";
+NSCalendarsUsageDescription = "Приложение использует календарь для создания напоминаний";

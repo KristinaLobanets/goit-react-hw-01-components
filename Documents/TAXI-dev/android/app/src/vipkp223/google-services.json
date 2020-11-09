@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "942490930302",
+    "firebase_url": "https://taxivip223.firebaseio.com",
+    "project_id": "taxivip223",
+    "storage_bucket": "taxivip223.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:942490930302:android:1286c8a0f644e8c1eb9c2f",
+        "android_client_info": {
+          "package_name": "it.stocksoft.vipkp223"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "942490930302-es0245r7q1a16usidsik16hcqpv8k0t5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAm4AWqUWFWcT4-GdZ0ruzI4PnHyGyWuuA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "942490930302-es0245r7q1a16usidsik16hcqpv8k0t5.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "942490930302-42j8q14ku1g07srn25l8rtiph5gmk1m0.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "it.stocksoft.vipkp223",
+                "app_store_id": "1493063515"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

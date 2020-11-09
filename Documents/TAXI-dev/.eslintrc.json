@@ -1,0 +1,60 @@
+{
+  "env": {
+    "browser": true,
+    "es6": true,
+    "node": true,
+    "react-native/react-native": true
+  },
+  "extends": [
+    "@react-native-community",
+    "airbnb",
+    "prettier",
+    "prettier/react",
+    "plugin:prettier/recommended",
+    "eslint-config-prettier"
+  ],
+  "globals": {
+    "Atomics": "readonly",
+    "SharedArrayBuffer": "readonly"
+  },
+  "parser": "babel-eslint",
+  "parserOptions": {
+    "ecmaFeatures": {
+      "jsx": true
+    },
+    "ecmaVersion": 2018,
+    "sourceType": "module"
+  },
+  "plugins": ["react", "prettier", "react-native"],
+  "rules": {
+    "react/jsx-uses-react": 1,
+    "prettier/prettier": [
+      "error",
+      {
+        "trailingComma": "es5",
+        "singleQuote": true,
+        "printWidth": 100,
+        "endOfLine":"auto"
+      }
+    ],
+    "react/jsx-filename-extension": "off",
+    "react/destructuring-assignment": "off",
+    "react/forbid-prop-types": "off",
+    "react/no-did-update-set-state": "off",
+    "react/require-default-props": "off",
+    "import/no-cycle": "off",
+    "import/prefer-default-export": "off",
+    "array-callback-return": "off",
+    "class-methods-use-this": "off",
+    "consistent-return": "off",
+    "no-nested-ternary": "off",
+    "no-param-reassign": "off",
+    "no-return-assign": "off",
+    "no-use-before-define": "off",
+    "prefer-destructuring": "off",
+    "prefer-promise-reject-errors": "off",
+    "react/static-property-placement": "off",
+    "react-native/no-inline-styles": "off",
+    "react/jsx-props-no-spreading": "off"
+  }
+}

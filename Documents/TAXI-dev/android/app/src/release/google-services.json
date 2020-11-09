@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "689994155912",
+    "firebase_url": "https://ok2299-2eef7.firebaseio.com",
+    "project_id": "ok2299-2eef7",
+    "storage_bucket": "ok2299-2eef7.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:689994155912:android:75a344cf09b9379dcd9c3d",
+        "android_client_info": {
+          "package_name": "com.oktaxi"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "689994155912-e9f9aj3nuk6t6abfndf4f77a9o9aiuab.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA4vK5yri_zMRygfy4bffU55e_Yrm3-HeE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "689994155912-e9f9aj3nuk6t6abfndf4f77a9o9aiuab.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "689994155912-gq4rkeq6jecctfpk2a8hv41j3fo7v2l6.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.oktaxi2299",
+                "app_store_id": "1484088157"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

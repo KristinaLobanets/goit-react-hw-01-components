@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "30706890275",
+    "firebase_url": "https://taxi505-554d8.firebaseio.com",
+    "project_id": "taxi505-554d8",
+    "storage_bucket": "taxi505-554d8.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:30706890275:android:72d621b242ecc92f292396",
+        "android_client_info": {
+          "package_name": "com.taxi505.client"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "30706890275-bq0abg861bhalm58e9rhhcb70akr577a.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD4HTZ7vTtp-YFmezs1kObBwvLigLnEAE8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "30706890275-bq0abg861bhalm58e9rhhcb70akr577a.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "30706890275-6dnhfheqd66qm6j07dm97chf4ggkt7c6.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.taxi505",
+                "app_store_id": "1483936733"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
